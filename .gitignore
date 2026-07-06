@@ -1,1 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+
+# Model Checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Outputs
+outputs/logs/*
+outputs/predictions/*
+outputs/plots/*
+!outputs/logs/.gitkeep
+!outputs/predictions/.gitkeep
+!outputs/plots/.gitkeep
+
+# Dataset
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Optional external resources
+data/external/*
+!data/external/.gitkeep
+
+# Submissions
+submissions/*
+!submissions/.gitkeep
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
